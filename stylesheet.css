@@ -1,25 +1,42 @@
+html{
+    background-color: purple;
+    border: yellow 1px solid;
+}
+
+
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: lightgrey;
+    border-radius: 20px;
 
 }
 .logo{
     font-size: 2.5rem;
     color: purple;
+    flex-grow: 1;
 }
-
-
 
 .leftlinks{
-    display: flex;
-    justify-self: flex-start;
-    text-decoration: none;
+    
+    flex-grow: 1;
+    padding-left: 16px;
+}
+.leftlinks a,.rightlinks a{
     font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    
+    
 }
 
+.rightlinks{
+    flex-grow: 0;
+    padding-right: 16px;
+    
+}
 
 
 
