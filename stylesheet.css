@@ -60,13 +60,29 @@ header{
 .landingBox p{
     
     width: 45ch;
-    font-size: 2rem;
-    color:whitesmoke;
-    background-color: inherit;
-    padding: 16px;
+        font-size: 2rem;
+        color:whitesmoke;
+        background-color: inherit;
+        padding: 6ch;
+    }
+.container-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6ch;
+    margin-bottom: 6ch;
+    background-color:lightsteelblue;
+    padding: 6ch;
+    border-radius: 20px;
+    
+    
 }
-
-
+.container-one img{
+    width: 300px;
+    height: auto;
+    
+    border: solid yellow 2px;
+}
 
 
 
