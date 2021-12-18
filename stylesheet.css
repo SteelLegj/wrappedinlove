@@ -35,10 +35,36 @@ header{
 .rightlinks{
     flex-grow: 0;
     padding-right: 16px;
-    
+    }
+.handmade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: white;
+    border-radius: 20px;
 }
+.landingBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-
+}
+.landing{
+    width:auto;
+    height:500px ;
+    flex-wrap: wrap;
+    border: yellow 2px solid;
+}
+.landingBox p{
+    
+    width: 45ch;
+    font-size: 2rem;
+    color:whitesmoke;
+    background-color: inherit;
+    padding: 16px;
+}
 
 
 
