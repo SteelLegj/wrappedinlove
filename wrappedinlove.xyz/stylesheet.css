@@ -11,6 +11,7 @@ header{
     align-items: center;
     background-color: lightgrey;
     border-radius: 20px;
+    flex-wrap: wrap;
 
 }
 .logo{
@@ -49,6 +50,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 
 }
 .landing{
@@ -74,7 +76,7 @@ header{
     background-color:lightsteelblue;
     padding: 6ch;
     border-radius: 20px;
-    
+    flex-wrap: wrap;
     
 }
 .container-one img{
@@ -84,20 +86,6 @@ header{
     border: solid yellow 2px;
 }
 
-@media (max-width:500px){
-html{
-    display: flex;
-    flex-direction: column;
-
-}
-img{
-    max-width: 90%;
-
-}
-
-}
-    
-    
 
 
 
