@@ -1,3 +1,31 @@
-:root{
-    font-size: 16px
+body{
+    background-color: plum;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+
+.bg-light{
+    background-color: lightskyblue;
+    border-radius: 22px;
+    padding: 5px;
+}
+.handmade{
+    background-color: linen;
+    color: purple;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 22px;
+    padding: 5px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+
+}
+
+
+
+
